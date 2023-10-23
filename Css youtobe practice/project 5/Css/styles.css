@@ -1,0 +1,182 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+   margin-top: 5vh;
+   margin-left: 5vw;
+   margin-right : 5vw;
+}
+
+ header .quote{
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+ .btn-1 a{
+ padding-bottom: 5px;
+ padding-left: 2px;
+ padding-right: 2px;
+ border-style: solid;
+ display: inline-block;
+ background-color: green;
+ text-decoration: none;
+ color : whitesmoke;
+}
+
+.btn-2 a{
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-style: solid;
+    display: inline-block;
+    background-color: orange;
+    text-decoration: none;
+    color : whitesmoke;
+}
+
+header img{
+    height: 200px;
+    width: 200px;
+    margin-top: -10px;
+    margin-left: 10%;
+    margin-right: 40px;
+    border-radius: 50%;
+    display: flow-root;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.small-container{
+    min-height: 150px;
+    max-width: 100%;
+    display: flex;
+    gap: 5vw;
+    padding-left: 15vw;
+    padding-right: 20vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-container img{
+    display:flow-root;
+    float: left;
+    flood-opacity: 0%;
+    max-height: 70px;
+    max-width :70px;
+    padding: 10px;
+}
+
+ 
+.small-info  h4{
+    padding-top: 10px;
+    font-size: 10px;
+   padding-left: 10px;
+}
+
+.small-info p{
+    font-size: 5px;
+    margin-left: 10px;
+}
+
+hr{
+    border-color: bisque;
+}
+
+main a{
+    margin-top: 10px;
+    display: inline-block;
+    background-color: green;
+    color : whitesmoke;
+    text-decoration: none;
+    margin-left: 45vw;
+    height: 30px;
+    width : 80px;
+    padding-left: 6px;
+    padding-top: 3px;
+}
+
+main h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 10;
+    grid-template-rows: 10;
+    max-height: 300px;
+    max-width: 80%;
+    gap:10px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.box{
+   
+}
+
+.box img{
+    height: 100%;
+    width: 100%;
+    background-image: cover;
+}
+
+.box1 {
+    grid-area : 1/1/7/5;
+}
+
+ .box2 {
+    grid-area : 1/5/7/7;
+}
+
+ .box3 {
+    grid-area : 1/7/3/9;
+}
+
+ .box4 {
+    grid-area : 7/1/9/3;
+}
+
+ .box5 {
+    grid-area : 7/3/9/5;
+}
+
+.box6 {
+    grid-area : 7/5/9/7;
+}
+
+.box7 {
+    grid-area : 3/7/9/9;
+}
+
+footer{
+    margin-top: 30%;
+    height : 30vh;
+    width : 100%;
+    background-color: antiquewhite;
+}
+
+footer .foot{
+    display: flex;
+    justify-content: center;
+    gap : 20px;
+}
+
+.info{
+    margin-top: 5%;
+    /* border-style: solid; */
+    height : 150px;
+    width : 170px;
+    font-size: 15px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}

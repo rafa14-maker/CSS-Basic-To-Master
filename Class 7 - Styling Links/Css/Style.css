@@ -1,0 +1,28 @@
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* 
+main{
+    opacity: 0.4;
+} */
+
+a{
+    color: steelblue;
+}
+
+
+a:visited{
+    color : purple;
+}
+
+a:hover , a:focus{
+    color : hsl(207,44%,49%,0.8);
+    /* opacity: 0.8; */
+    
+}
+
+a:active{
+    color: red;
+}

@@ -1,0 +1,176 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+/* variables  */
+
+:root{
+   /*font */
+   --ff : sans-serif;
+   --fs : max(1.75rem,3vh);
+   --fs-xl : 3rem;
+
+    /* color */
+    --BGCOLOR: #475569;
+    --alt-bgcolor : #1e293B;
+    --radial-color: whitesmoke;
+    --light-color : whitesmoke;
+    --dark-color : #000;
+
+    /* square */
+   --suqare-bgcolor : papayawhip;
+    --square-size : max(150px,20vw);
+
+    /*general*/
+
+    --padding : 0.5rem;
+    --shadows : 0 6px 5px -5px var(var(--dark-color));
+    --borders : 2px solid var(var(--dark-color));
+
+}
+
+@media (prefers-color-scheme : dark){
+    :root{
+        --BGcolor : #000;
+        --square-bgcolor : rgb(202,174,202);
+        --alt-bgcolor : #333;
+    }
+}
+
+body{
+    font : 1.5rem , sans-serif;
+    min-height : 100vh;
+
+    background-color: var(--BGCOLOR);
+    background-image : radial-gradient(whitesmoke,var(--BGCOLOR));
+    display: flex;
+    flex-direction: column;
+}
+
+header , nav , footer {
+    display: grid;
+    place-content: center;
+   grid-template-columns : 100%;
+  text-align: center;
+}
+
+header , footer {
+    position: sticky;
+    background-color: #1E293B;
+    color : whitesmoke;
+}
+
+header{
+    top : 0;
+}
+
+nav{
+    background-color: aliceblue;
+    color : black;
+    padding: 0.5rem;
+    border-bottom: 2px solid black;
+}
+
+main{
+    flex-grow: 1;
+
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    gap : min(4vw , 15px);
+}
+
+footer{
+    bottom : 0;
+}
+
+ /* || SMALL */
+
+ @media screen and (min-width : 576px){
+    body {
+        background-color: green;
+        background-image: radial-gradient(whitesmoke, green);
+    }
+    nav{
+        display: none;
+    }
+ }
+
+.square--highlight{
+    --suqare-bgcolor: cornflowerblue;
+}
+
+
+
+.square{
+    background-color: var(--suqare-bgcolor);
+    width : var(--square-size);
+    height : var(--square-size);
+    border : 100px;
+    border-radius: 15px;
+    display: grid;
+     place-content: center;
+     font-size: 1rem;
+     box-shadow: #1E293B;
+}
+
+
+
+ /* || Medium */
+
+ @media screen and (min-width : 768px){
+    body {
+        background-color: gold;
+        background-image: radial-gradient(whitesmoke, green);
+    }
+ }
+
+ /* || large */
+
+ @media screen and (min-width : 992px){
+    body {
+        background-color: firebrick;
+        background-image: radial-gradient(whitesmoke, firebrick);
+    }
+ }
+
+  /* || XL */
+
+  @media screen and (min-width : 1200px){
+    body {
+        background-color: rebeccapurple;
+        background-image: radial-gradient(whitesmoke, rebeccapurple);
+    }
+ }
+
+   /* || MOBILE DEVICE LANDSCAPE */
+
+   @media screen and (max-height : 425px) and (min-aspect-ration : 7/4){
+    body {
+        background-color: dodgerblue;
+        background-image: radial-gradient(whitesmoke, dodgerblue);
+    }
+
+    h1,h2{
+        font-size: 1.5rem;
+    }
+
+    nav{
+        display: none;
+    }
+ }
+
+
+/* 
+@media media type and (codition : breakpoint){
+    
+} */
+/* 
+@media  screen and (min-aspect-ration : 7/4) {
+    
+} */
+

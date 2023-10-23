@@ -1,0 +1,31 @@
+body{
+    padding : 5% 10%;
+    font-size : 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ol{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul{
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color : blue;
+    line-height: 1.6;
+     /* list-style-image: url('../img/check.jpg');
+     list-style: square url('../img/check.jpg') inside;  */
+}
+
+ul li:nth-child(odd){
+    color : red;
+}
+
+ul ::marker {
+   color : red;
+   font-family: fantasy;
+   font-size: 1em;
+   content: "only $5 >>";
+}

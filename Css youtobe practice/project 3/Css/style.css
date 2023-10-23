@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* height : 94vh;
+    width : 70vw;
+    border-style: solid;
+    margin-top: 20px;
+    margin-left: 120px; */
+    background-color: azure;
+    margin-left: 200px;
+    margin-right: 20px;
+}
+
+.container {
+   /* border-style: solid; */
+   /* border-color: blueviolet; */
+   min-height: 2000px;
+   max-width: 900px;
+   display: flex;
+   flex-direction: column;
+}
+
+.content{
+    /* border-style: solid; */
+    /* border-color: blue; */
+    min-height: 500px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .btn{
+    /* border-style: solid; */
+    /* border-color: brown; */
+    max-width: 100%;
+    min-height: 300px;
+}
+
+.content .para{
+    /* border-style: solid; */
+    /* border-color: brown; */
+    max-width: 100%;
+    min-height: 175px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(59, 57, 57);
+    color : whitesmoke;
+}
+
+.content .para h2{
+    padding-bottom: 20px;
+}
+
+.container .content .btn1 {
+  background-image: url('../img/360_F_535473874_OWCa2ohzXXNZgqnlzF9QETsnbrSO9pFS.jpg') ;
+  /* background-position: top; */
+}
+
+.container .content .btn2 {
+    /* border-style: solid;
+    border-color: aqua; */
+    background-image: url('../img/road-1072821_640.jpg');
+  }
+
+  .container .content .btn3 {
+    background-image: url('../img/road-1072821_640.jpg') ;
+    /* background-position: top; */
+  }
+
+  .container .content .btn4 {
+    background-image: url('../img/ZMBC10.jpg') ;
+    /* background-position: top; */
+  }
+
+  .container .content .btn1 h2 {
+       background-color: rgb(41, 39, 39);
+       text-align: center;
+       text-transform: uppercase;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color: whitesmoke;
+       margin-top: 140px;
+       margin-left: 100px;
+       margin-right: 100px;
+  }
+
+   .container .content .btn2 h2  {
+    background-color: rgba(255, 255, 255, 0.364);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    margin-top: 140px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container .content .btn3 h2  {
+    background-color: rgba(48, 47, 47, 0.55);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    margin-top: 140px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container .content .btn4 h2  {
+    background-color: rgb(48, 47, 47);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    margin-top: 140px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container .content  .para1 {
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

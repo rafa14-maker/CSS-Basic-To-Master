@@ -1,0 +1,91 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.offscreen{
+    position: absolute;
+    left : -100px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    background-color: aliceblue;
+    /* background-image: url('../img/pat1.avif'), linear-gradient(to left,purple, white);
+    background-repeat: repeat-y , no-repeat;
+    background-position: right center;
+    background-size: 20% , auto; */
+}
+
+/* .container {
+
+} */
+
+.hero{
+    border-bottom: 2px solid black;
+    padding : 20px;
+    display : flex;
+    justify-content : flex-start;
+    align-items: center;
+    gap : 30px;
+
+    background-color: rgb(251,210,156);
+    background-color : hsla(0,0,0,0.403);
+    background-image: url('../img/pat1.avif');
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.h1{
+    font-size: 500%;
+    color : aliceblue;
+    text-shadow: 2px 2px 5px #000;
+    /* background-color : hsla(0,0,0,40%);
+    padding : 0.25rem;
+    border-radius: 10px; */
+}
+
+.profile-pic-figure{
+    width: 35%;
+}
+
+.profile-pic-figure img{
+    width : 100%;
+    height : auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;
+}
+
+.example {
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+
+.example img {
+    width: 25%;
+    height : auto;
+}
+
+.clip{
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image: url('../img/pat1.avif');
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    color : hsla(0,0,0,0);
+}

@@ -1,0 +1,188 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    gap : 10px;
+    justify-content: right;
+    padding-right: 50px;
+    padding-left: 60px;
+    background-color: rgb(58, 31, 83);
+    color: whitesmoke;
+}
+
+header .nav-1{
+    flex-grow: 1;
+}
+
+.content{
+    height: 500px;
+    width:100%;
+       text-align: center;
+       background-image: url('../img/hero_image.png');
+       background-size: cover;
+       color : whitesmoke;
+       padding-top: 20%;
+}
+
+
+main p{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.clear{
+    clear: both;
+}
+
+.music{
+     text-align: center;
+     padding-top: 30px;
+     background-color: rgb(54, 31, 76);
+     color : white;
+     height: 400px;
+}
+
+.music h1{
+    font-size: 1.5rem;
+}
+
+.music p{
+    font-size : 0.7rem;
+    padding-bottom: 20px;
+}
+
+.music  .callout{
+    color : gray;
+}
+
+.music a{
+    display : inline-block;
+    text-decoration: none;
+    background-color: brown;
+    color : whitesmoke;
+    height: 30px;
+    width : 200px;
+    padding-top: 5px;
+}
+
+.music img{
+    height : 350px;
+}
+
+.laptop{
+    margin-top: 350px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.laptop .fig{
+    margin-top: 30px;
+    height: 350px;
+    width: 700px;
+}
+
+.laptop a{
+    display: block;
+    text-decoration: none;
+    background-color: blueviolet;
+    color : whitesmoke;
+    width:10%;
+    height: 30px;
+    padding-top: 10px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.entertainment{
+    margin-top: 20px;
+    height: 500px;
+    width : 100%;
+    background-image: url('../img/video.png');
+    background-position: cover;
+    text-align: center;
+    color : whitesmoke;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.entertainment h2{
+   padding-top: 250px;
+}
+
+.entertainment p{
+    font-size: 10px;
+    padding-right: 200px;
+    padding-left:200px;
+}
+
+.gift{
+  padding-top: 5%;
+  height : 500px;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 15%;
+  background-color: rgb(219, 208, 228);
+}
+
+.gift img{
+    max-height: 500px;
+    display: flow-root;
+    float: left;
+    margin-right: 50px;
+}
+
+.gift input{
+    height: 30px;
+    width: 40%;
+    text-decoration: none;
+    display: block;
+}
+
+.gift a{
+    display: inline-block;
+    margin-top: 10px;
+    height : 30px;
+    text-decoration: none;
+    /* border: solid; */
+    width: 140px;
+    background-color:rgb(26, 4, 47);
+    color: aliceblue;
+       text-align: center;
+       padding-top: 3px;
+}
+
+footer {
+    padding-top: 50px;
+    display: flex;
+    height : 25vh;
+    justify-content: center;
+    gap: 10%;
+    width: 100%;
+    background-color: rgb(22, 5, 38);
+    color :whitesmoke;
+}
+
+footer h3{
+    text-decoration: underline;
+    text-decoration-color: gray;
+    display: block;
+    width: 100%;
+}
+
+footer ul{
+    padding-top: 15px;
+    list-style: none;
+}
+
+ .ending{
+    height : 3vh;
+    color :aliceblue;
+    background-color: rgb(68, 18, 114);
+    text-align: center;
+    padding-top: 4px;
+}

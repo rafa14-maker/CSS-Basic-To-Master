@@ -1,0 +1,13 @@
+body{
+    padding : 10%;
+    font-size: 2rem;
+}
+
+p{
+    line-height: 1.5;
+    /* everything with property text , font , line  */
+}
+
+/* input , button {
+    font : inherit;
+} */
